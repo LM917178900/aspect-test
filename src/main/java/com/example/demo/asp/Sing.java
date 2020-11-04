@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class Sing implements Performance {
     @Override
     public void perform() throws Exception {
-        System.out.println(" this is a good singer,and this is a good sing!");
+        System.out.println(" this is a good singer,and this is a good song!");
         throw new Exception("ccc");
     }
 }
